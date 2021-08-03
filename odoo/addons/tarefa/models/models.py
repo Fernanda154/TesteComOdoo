@@ -4,7 +4,7 @@ from odoo import models, fields, api
 
 class tarefa(models.Model):
     _name = 'tarefa.tarefa'
-
+    name = fields.Char()
     responsavel = fields.Char()
     description = fields.Text()
 
